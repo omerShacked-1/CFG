@@ -151,7 +151,9 @@ def opstr(operation : Operation):
         case _:
             return ""
         
-
+#Method to build all nodes of instructions and their edges, including "Jump" nodes
+#"Jump" node - a node of a Jump instruction
+#instructions(argument) - an array of assembly code
 def build_G(instructions) -> MultiDiGraph:
     G = nx.MultiDiGraph()
     G.add_node(0,label="start")
