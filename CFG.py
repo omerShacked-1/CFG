@@ -132,7 +132,7 @@ class Node():
     outedges : List[int]
 
 
-#Consts
+#Constants
 LABEL_STR='label'
 CONNECTION_STYLE_DEF='arc3, rad = 0.1'
 EMP_STR=""
